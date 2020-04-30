@@ -6,26 +6,18 @@
 
 body{
   font-family: sans-serif;
-  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-a{
-  color: #333;
-  text-decoration: none;
-}
-.container{
-  padding: 0 1rem;
-}
-
-.btn{
-  display: inline-block;
-  border : none;
-  background: #555;
-  color: #fff;
-  padding: 7px 20px;
-  cursor: pointer;
-}
-
-.btn:hover{
-  background: #666;
+#root{
+  width: 400px;
+  height: 600px;
+  transform: translateY(10%);
+  background: rgb(235, 235, 235);
+  -webkit-box-shadow: 5px 9px 19px 6px rgba(0,0,0,0.16);
+-moz-box-shadow: 5px 9px 19px 6px rgba(0,0,0,0.16);
+box-shadow: 5px 9px 19px 6px rgba(0,0,0,0.16);
+overflow-y: scroll;
 }
